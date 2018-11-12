@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SlackChat - The Best Online Group Chat Channel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>SlackChat 0.6.9 (c) 1990-1998 - http://www.slackchat.host/</p>
+    </header>
+    <main>
+        <div id="chat-log"></div>
+    </main>
+    <nav>
+        <ul>
+            <li id="time">[xx:xx]</li>
+            <li id="partyParrot">[Party Parrot]</li>
+            <li id="rickAscii">[Special]</li>
+        </ul>
+    </nav>
+    <div class="chat-input">
+        <input type="text" id="input">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
